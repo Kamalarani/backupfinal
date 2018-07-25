@@ -1,0 +1,44 @@
+{
+  "name": "@evolvus/evolvus-application",
+  "version": "1.0.6",
+  "description": "Application encapsulates Application functionality across all Evolvus products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolvus/evolvus-application.git"
+  },
+  "keywords": [
+    "evolvus",
+    "Application"
+  ],
+  "author": "Kavya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evolvus/evolvus-application/issues"
+  },
+  "homepage": "https://github.com/Evolvus/evolvus-application#readme",
+  "dependencies": {
+    "@evolvus/evolvus-docket-client": "^1.0.2",
+    "@evolvus/evolvus-mongo-dao": "^1.0.0",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "jsonschema": "^1.2.4",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.4",
+    "shortid": "^2.2.12",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^5.0.5"
+  }
+}

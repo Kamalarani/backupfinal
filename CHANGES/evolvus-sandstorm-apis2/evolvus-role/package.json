@@ -1,0 +1,46 @@
+{
+  "name": "@evolvus/evolvus-role",
+  "version": "1.0.8",
+  "description": "Evolvus-role encapsulates role functionality across all Evolvus products",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Evolvus/evolvus-role.git"
+  },
+  "keywords": [
+    "evolvus",
+    "role"
+  ],
+  "author": "Shriman Nijagun",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Evolvus/evolvus-role/issues"
+  },
+  "homepage": "https://github.com/Evolvus/evolvus-role#readme",
+  "dependencies": {
+    "@evolvus/evolvus-application": "^1.0.4",
+    "@evolvus/evolvus-docket-client": "^1.0.2",
+    "@evolvus/evolvus-menu": "^1.0.4",
+    "@evolvus/evolvus-mongo-dao": "^1.0.1",
+    "debug": "^3.1.0",
+    "express": "^4.16.3",
+    "jsonschema": "^1.2.4",
+    "lodash": "^4.17.5",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.4",
+    "validator": "^9.4.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-as-promised": "^7.1.1",
+    "grunt": "^1.0.2",
+    "grunt-contrib-jshint": "^1.1.0",
+    "grunt-contrib-watch": "^1.0.0",
+    "grunt-env": "^0.4.4",
+    "grunt-mocha-test": "^0.13.3",
+    "mocha": "^5.0.5"
+  }
+}

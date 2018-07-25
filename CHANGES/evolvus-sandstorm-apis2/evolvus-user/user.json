@@ -1,0 +1,98 @@
+{
+   
+    "enabledFlag" : 1,
+    "deletedFlag" : 0,
+    "processingStatus" : "AUTHORIZED",
+    "tenantId" : "IVL",
+    "application" : {
+        "tenantId" : "IVL",
+        "applicationName" : "Docket",
+        "applicationCode" : "DOCK",
+        "createdBy" : "Kavya",
+        "createdDate" : "function toISOString() { [native code] }",
+        "updatedDate" : "function toISOString() { [native code] }"
+    },
+    "contact" : {
+        "tenantId" : "IVL",
+        "firstName" : "pavithra",
+        "middleName" : "T",
+        "lastname" : "Thimmappa",
+        "email" : "Pavithrakit130@gmail.com",
+        "emailVerified" : true,
+        "phoneNo" : "7708387761",
+        "mobileNo" : "9999888801",
+        "mobileVerified" : false,
+        "faxNumber" : "12345678fax",
+        "companyName" : "Evolvus",
+        "Address1" : "Banglore",
+        "Address2" : "Banglore",
+        "city" : "Banglore",
+        "state" : "karnataka",
+        "country" : "India",
+        "zipCode" : "kct123"
+    },
+    "entity" : {
+        "tenantId" : "IVL",
+        "name" : "HeadOffice",
+        "parent" : "HeadOffice",
+        "entityCode" : "entity",
+        "entityId" : "abc12",
+        "accessLevel" : "1",
+        "createdBy" : "SYSTEM",
+        "createdDate" : "2018-06-21T04:36:09.475Z",
+        "processingStatus" : "AUTHORIZED"
+    },
+    "role" : {
+        "menuGroup" : [ 
+            {
+                "menuItems" : [ 
+                    {
+                        "_id" : "5b2b2b397f085a12374a476b",
+                        "menuItemType" : "menu",
+                        "applicationCode" : "FLUX-CDA",
+                        "menuItemCode" : "ROLE",
+                        "title" : "Role Management",
+                        "menuItemOrder" : 1,
+                        "selectedFlag" : true
+                    }
+                ],
+                "enableFlag" : 1,
+                "deletedFlag" : 0,
+                "selectedFlag" : false,
+                "_id" : "5b2b2b397f085a12374a4769",
+                "menuGroupCode" : "Administration",
+                "title" : "ADMINISTRATION",
+                "applicationCode" : "RTP-CONSOLE",
+                "tenantId" : "IVL",
+                "createdBy" : "SYSTEM",
+                "createdDate" : "2018-06-26T09:14:20.332Z",
+                "menuGroupOrder" : 1,
+                "__v" : 0
+            }
+        ],
+        "deletedFlag" : 0,
+        "processingStatus" : "authorized",
+        "roleName" : "Admin",
+        "applicationCode" : "RTP-CONSOLE",
+        "description" : "This is Admin Role",
+        "activationStatus" : "active",
+        "tenantId" : "EVL",
+        "entityCode" : "defaultEntity",
+        "accessLevel" : "0",
+        "associatedUsers" : 5,
+        "createdBy" : "SYSTEM",
+        "createdDate" : "2018-06-26T09:14:20.332Z",
+        "lastUpdatedDate" : "2018-06-26T10:19:01.382Z",
+        "__v" : 2,
+        "updatedBy" : "SYSTEM"
+    },
+    "userName" : "kavyak",
+    "userPassword" : "$2a$10$iRorVodL5p4udJf1L85bkuvdduf88YtHAaqvxeMgAWZDjUFGYUj4S",
+    "activationStatus" : "ACTIVE",
+    "createdBy" : "SYSTEM",
+    "createdDate" : "2018-06-28T11:46:51.089Z",
+    "lastUpdatedDate" : "2018-06-28T11:46:51.089Z",
+    "saltString" : "$2a$10$iRorVodL5p4udJf1L85bku",
+    "__v" : 0,
+    "token" : "eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiJrYXZ5YWsiLCJhdWRpZW5jZSI6IndlYiIsInJvbGUiOiJBZG1pbiIsImFwcGxpY2F0aW9uIjoiRE9DSyIsImNyZWF0ZWQiOjE1MzAyNzg3ODI1OTEsInRlbmFudElkIjoiSVZMIiwiZW50aXR5SWQiOiJhYmMxMiIsInVzZXJOYW1lIjoia2F2eWFrIiwiZXhwIjoxNTMwMjgwNTgyfQ.KTfZGMywWCmrh_NDAefLKnxgKBaZBYd0uWjkJBZgXSppZ2MLOTP9zvIIm2F5BGVolc1vlbp6OHeMZUdQp4NeBA"
+}

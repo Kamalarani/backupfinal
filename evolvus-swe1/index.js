@@ -80,9 +80,8 @@ module.exports.complete = (tenantId, createdBy, wfEntity, wfEntityAction, object
         "X-ACCESS-LEVEL": "2",
         "X-ENTITY-ID": "H001B001GW9wL"
       },
-
       method: result.callbackMethod,
-      url: result.callbackURL + "/" + objectId,
+      url: result.callbackURL,
       data: {
         "wfInstanceStatus": "COMPLETED"
       }
